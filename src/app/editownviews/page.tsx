@@ -1,5 +1,5 @@
 "use client ";
-import { ArrowForward } from "@material-ui/icons";
+import { ArrowForward } from "@mui/icons-material";
 import React from "react";
 
 const EditOwn = () => {
