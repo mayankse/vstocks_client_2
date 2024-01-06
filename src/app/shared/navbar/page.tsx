@@ -177,10 +177,10 @@ const NavbarPage = () => {
               >
                 <ListItemButton sx={{ fontWeight: "lg",backgroundColor:'' }} className="ml-5 font-medium mt-[-10px] hover:bg-indigo-100 m-1 p-2 text-[17px]"><a href="/" >Home</a></ListItemButton>
                 <ListItemButton className=" hover:bg-indigo-100  m-1 p-2 text-[17px] ml-5 font-medium ">Template </ListItemButton>
-                <ListItemButton className=" hover:bg-indigo-100  m-1 p-2 text-[17px] ml-5 font-medium "><a href="/pages/animationpage">My Project</a></ListItemButton>
-                <ListItemButton className=" hover:bg-indigo-100  m-1 p-2 text-[17px] ml-5 font-medium "><a href="/pages/pricing">Premium</a></ListItemButton>
+                <ListItemButton className=" hover:bg-indigo-100  m-1 p-2 text-[17px] ml-5 font-medium "><a href="/">My Project</a></ListItemButton>
+                <ListItemButton className=" hover:bg-indigo-100  m-1 p-2 text-[17px] ml-5 font-medium "><a href="/">Premium</a></ListItemButton>
                 <ListItemButton className=" hover:bg-indigo-100  m-1 p-2 text-[17px] ml-5 font-medium "><span className="text-indigo-500">
-                  <a href="/pages/login" className= {buttonStyle.textColor}>
+                  <a href="/" className= {buttonStyle.textColor}>
                     {/* <img
                       src="/images/Vector (2).svg"
                       alt=""
@@ -205,8 +205,7 @@ const NavbarPage = () => {
                 <a
                   href="/"
                   className="block  py-2 px-4 text-[22px] xl:ml-5 font-light font-poppins text-white rounded md:bg-transparent  md:dark:bg-transparent md:p-0  bg-blue-700  "
-                  aria-current="page"
-                >
+                  aria-current="page">
                   Home
                 </a>
               </li>
@@ -307,7 +306,7 @@ const NavbarPage = () => {
 
               <li>
                 <a
-                  href="/pages/animationpage"
+                  href="/"
                   className="block py-2 px-3 text-[22px]  xl:ml-3 font-normal font-popinns  md:bg-transparent  md:dark:bg-transparent  md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   My Projects
@@ -315,7 +314,7 @@ const NavbarPage = () => {
               </li>
               <li>
                 <a
-                  href="/pages/pricing"
+                  href="/"
                   className="block py-2 px-3 xl:ml-2 text-[22px]  font-normal font-poppins text-white rounded md:bg-transparent  md:dark:bg-transparent                                        md:p-0  bg-blue-700  "
                   aria-current="page"
                 >
@@ -329,7 +328,7 @@ const NavbarPage = () => {
                   className={`inline-block  w-[150px] h-[50px] xl:ml-10 d-flex p-[8px 35px] rounded-[44px] border border-solid  border-white ${buttonStyle.backgroundColor} ${buttonStyle.textColor} transition-colors duration-300 ease-in-out`}
                   onClick={handleButtonClick}
                 >
-                  <a href="/pages/login" className={buttonStyle.textColor}>
+                  <a href="/" className={buttonStyle.textColor}>
                     <img
                       src="/images/Vector (2).svg"
                       alt=""
