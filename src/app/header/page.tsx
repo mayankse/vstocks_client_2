@@ -1,6 +1,6 @@
 "use client ";
 import SearchViews from "../searchviews/page";
-import "@/app/globals.css";
+import "../globals.css";
 import VectorSearch from "../vectorsearch/page";
 import NavbarPage from "../navbar/page";
 

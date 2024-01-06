@@ -2,3 +2,216 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+.font-poppins{
+  font-family: 'Poppins', sans-serif;
+}
+
+.dropDownArror{
+  
+  position: absolute;
+  top: 0.9rem;
+  width: 750px;
+  padding: 15px;
+  border-radius: 35px;
+  background-color: white;
+  border-top: 1px solid gray;
+}
+
+.dropDownArror::before{
+  content: '';
+  position: absolute;
+  top: -0.7rem;
+  right: 25.1rem;
+  width: 40px;
+  height: 40px;
+   transform: rotate(45deg); 
+  background-color: white;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  
+}
+
+.bg-custom-background {
+  background-image: url('/images/bg.png');
+  background-size: cover;
+  height: auto;
+  background-position: center;
+  height: auto;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+  .item{
+     /* display: flex; */
+     flex-wrap: wrap;
+     flex-direction: column;
+     
+ }
+
+ .wid{
+     width: 16em;
+     /* text-align: center; */
+ }
+
+ .colo{
+     color: purple;
+ }
+
+ .msize{
+     font-size: 0.8rem;
+     border: none;
+     color: #fff;
+ }  
+}
+
+.switch{
+  position: relative;
+  width: 262px;
+  height: 60px;
+  border-radius: 25px;
+  padding: 1px;
+  margin-right: 50px;
+
+}
+.switch input{
+  appearance: none;
+  width: 315px;
+  height: 62px;
+  border-radius: 30px;
+  background: #5e5cee;
+  outline: none;
+  padding: 250px;
+
+}
+.switch input::before,
+.switch input::after{
+  z-index: 2;
+  position: absolute;
+  top: 56%;
+  transform: translateY(-40%);
+  padding: 15px;
+
+  
+}
+.switch input::before{
+  content: "Monthly";
+  left: 25px;
+  font-size: 18px;
+  font-family: popinns;
+  top: 25px;
+  padding: 15px;
+}
+.switch input::after{
+  content: "Yearly";
+  right: -6px;
+  font-size: 18px;
+  font-family: popinns;
+  top: 25px;
+}
+.switch input:checked{
+  background-color: #2e67dd;
+  padding: 15px;
+}
+.switch label{
+  z-index: 1;
+  position: absolute;
+  top: 4px;
+  bottom: 0px;
+  padding: 15px;
+  border-radius: 30px;
+} 
+.switch input{
+  transition: 0.10s;
+}
+.switch input:checked::after,
+.switch input:checked::before{
+  color: black;
+  transition: color 0.5s;
+  padding: 15px;
+
+}
+.switch input:checked+label{
+  left: 5px;
+  right: 90px;
+  background: #fff;
+  padding: 24px;
+  top:4px;
+  
+  transition: left 0.5s, right 0.5s , background 0.35s;
+}
+.switch input:not(:checked){
+  background: #2e67dd;
+  transition: background 0.4s;
+  padding: 15px;
+
+
+}
+.switch input:not(:checked)::before{
+  color: #fff;
+  padding: 15px;
+  transition: color 0.5s 0.5s;
+}
+.switch input:not(:checked)::after{
+  color: black;
+  transition: color 0.5s 0.5s;
+}
+.switch input:not(:checked)+label{
+  left: 160px;
+  right: -50px;
+  top: 4px;
+  padding: 24px;
+  background: #fff;
+  transition: left 0.4s 0.2s , right 0.2s , background 0.35s;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 720px) {
+
+  .new{
+    width: 50%;
+  }
+
+  ani{
+    display: flex;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1720px) {
+
+  .new{
+    width: 20%;
+
+  }
+}
+ 
+:root{
+  
+}
+
+/* 
+html,
+body {
+  height: 100%;
+}
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
