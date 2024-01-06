@@ -61,7 +61,7 @@ const PageLogin = () => {
               {/* Social Media Buttons */}
               <div className="flex justify-center items-center xl:p-3">
                 <button className="text-red-500 m-3 ">
-                  <img
+                  <Image
                     src="/images/google.svg"
                     className="border-[2px] border-solid border-[#878787] rounded-full"
                     alt=""
@@ -70,7 +70,7 @@ const PageLogin = () => {
                   />
                 </button>
                 <button className="text-blue-500 m-6   ">
-                  <img
+                  <Image
                     src="/images/facebook1.svg"
                     className="   "
                     width={50}
