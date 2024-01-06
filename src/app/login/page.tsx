@@ -1,7 +1,7 @@
 "use client";
-import FooterPage from "../footer/page";
+import FooterPage from "../shared/footer/page";
 import HeaderPage from "../shared/header/page";
-import NavbarPage from "../navbar/page";
+import NavbarPage from "../shared/navbar/page";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
