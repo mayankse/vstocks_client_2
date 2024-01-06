@@ -3,7 +3,7 @@ import React from 'react'
 const HeaderPage = () => {
   return (
     <div>
-      Hello I am haeder page
+      Hello I am header page
     </div>
   )
 }
