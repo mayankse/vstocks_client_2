@@ -1,6 +1,6 @@
 "use client";
 import FooterPage from "../footer/page";
-import HeaderPage from "../header/page";
+import HeaderPage from "../shared/header/page";
 import NavbarPage from "../navbar/page";
 import Image from "next/image";
 import Link from "next/link";
