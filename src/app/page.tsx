@@ -11,6 +11,10 @@ import "@/app/globals.css";
 
 
 export default function Home() {
+  useEffect(()=>
+  {
+    document.title="VSTOCKS"
+  },[]);
   return (
     <div className="bg-[#fefaff]">
       <div className="">
