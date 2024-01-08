@@ -8,6 +8,7 @@ import Recommended_Views from "./recommended/page";
 import ClientReview_Views from "./client_review/page";
 import FooterPage from "./shared/footer/page";
 import "@/app/globals.css";
+import { useEffect } from "react";
 
 
 export default function Home() {
