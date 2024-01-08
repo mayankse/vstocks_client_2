@@ -51,21 +51,21 @@ const NewlyAdded = () => {
           <div className="text-center w-full sm:w-1/2  md:w-1/4 lg:w-1/4 xl:w-1/4 mt-6 mx-auto ">
             <img
               src="./images/Newly2.svg"
-              className="object-cover  mx-auto w-full       xl:w-[280px]"
+              className="object-cover  mx-auto w-full  xl:w-[280px]"
               alt="Vector Graphics"
             />
           </div>
           <div className="text-center w-full sm:w-1/2  md:w-1/4 lg:w-1/4 xl:w-1/4 mt-6 mx-auto ">
             <img
               src="./images/Newly3.svg"
-              className="object-cover  mx-auto w-full       xl:w-[280px]"
+              className="object-cover  mx-auto w-full  xl:w-[280px]"
               alt="Vector Graphics"
             />
           </div>
           <div className="text-center w-full sm:w-1/2  md:w-1/4 lg:w-1/4 xl:w-1/4 mt-6 mx-auto ">
             <img
               src="./images/Newly4.svg"
-              className="object-cover  mx-auto w-full       xl:w-[280px]"
+              className="object-cover  mx-auto w-full xl:w-[280px]"
               alt="Vector Graphics"
             />
           </div>

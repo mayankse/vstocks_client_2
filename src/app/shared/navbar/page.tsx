@@ -4,6 +4,7 @@ import { Dehaze, ListAlt, Search } from "@mui/icons-material";
 import { ModalClose } from "@mui/joy";
 import "@/app/globals.css";
 
+
 import {
   Drawer,
   IconButton,
@@ -69,7 +70,7 @@ const NavbarPage = () => {
     <div className=" font-poppins ">
       <nav className="w-full p-[35px] font-poppins h-auto  bg-black border-gray-200 dark:bg-transparent">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto xl:p-5">
-          <a href="" className="flex p-3 items-center  ">
+          <a href="/" className="flex p-3 items-center  ">
             <span className="self-center text-[40px] mb-2 font-semibold whitespace-nowrap dark:text-white">
               Vstocks
             </span>
@@ -314,7 +315,7 @@ const NavbarPage = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/pricing"
                   className="block py-2 px-3 xl:ml-2 text-[22px]  font-normal font-poppins text-white rounded md:bg-transparent  md:dark:bg-transparent                                        md:p-0  bg-blue-700  "
                   aria-current="page"
                 >
@@ -328,14 +329,14 @@ const NavbarPage = () => {
                   className={`inline-block  w-[150px] h-[50px] xl:ml-10 d-flex p-[8px 35px] rounded-[44px] border border-solid  border-white ${buttonStyle.backgroundColor} ${buttonStyle.textColor} transition-colors duration-300 ease-in-out`}
                   onClick={handleButtonClick}
                 >
-                  <a href="/" className={buttonStyle.textColor}>
+                  <a href="/login" className={buttonStyle.textColor}>
                     <img
                       src="/images/Vector (2).svg"
                       alt=""
                       className="inline-block font-white"
                     />
                     <span className="ml-2 text-[20px]">Login</span>
-                  </a>
+                  </a>   
                 </button>
               </li>
             </ul>
