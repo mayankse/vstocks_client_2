@@ -14,7 +14,7 @@ import { useEffect } from "react";
 export default function Home() {
   useEffect(()=>
   {
-    document.title="VSTOCKS"
+    document.title="Vstocks"
   },[]);
   return (
     <div className="bg-[#fefaff]">

@@ -6,7 +6,7 @@ import NavbarPage from "../navbar/page";
 
 const HeaderPage = () => {
   return (
-    <div className="head text-white bg-[#2E67DD] font-popinns  px-4 rounded-bottom-curve shadow-xl h-auto   ">
+    <div className="head text-white bg-[#2E67DD] font-poppins  px-4 rounded-bottom-curve shadow-xl h-auto   ">
       <div className="bg-[#2E67DD] ">
         <NavbarPage />
       </div>
