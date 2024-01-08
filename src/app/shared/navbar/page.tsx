@@ -179,9 +179,9 @@ const NavbarPage = () => {
                 <ListItemButton sx={{ fontWeight: "lg",backgroundColor:'' }} className="ml-5 font-medium mt-[-10px] hover:bg-indigo-100 m-1 p-2 text-[17px]"><a href="/" >Home</a></ListItemButton>
                 <ListItemButton className=" hover:bg-indigo-100  m-1 p-2 text-[17px] ml-5 font-medium ">Template </ListItemButton>
                 <ListItemButton className=" hover:bg-indigo-100  m-1 p-2 text-[17px] ml-5 font-medium "><a href="/">My Project</a></ListItemButton>
-                <ListItemButton className=" hover:bg-indigo-100  m-1 p-2 text-[17px] ml-5 font-medium "><a href="/">Premium</a></ListItemButton>
+                <ListItemButton className=" hover:bg-indigo-100  m-1 p-2 text-[17px] ml-5 font-medium "><a href="/pricing">Premium</a></ListItemButton>
                 <ListItemButton className=" hover:bg-indigo-100  m-1 p-2 text-[17px] ml-5 font-medium "><span className="text-indigo-500">
-                  <a href="/" className= {buttonStyle.textColor}>
+                  <a href="/login" className= {buttonStyle.textColor}>
                     {/* <img
                       src="/images/Vector (2).svg"
                       alt=""

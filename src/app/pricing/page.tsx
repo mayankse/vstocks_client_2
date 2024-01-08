@@ -12,7 +12,11 @@ import HeaderPage from "../shared/header/page";
 import "@/app/globals.css";
 
 const PricingPage = () => {
-  const [value1, setValue1] = useState(true);
+  useEffect(()=>
+  {
+    document.title="Pricing"
+  })
+  const [value1, setValue1] = useState<boolean>(true);
 
   const handleSwitchChange = () => {
     setValue1(!value1);

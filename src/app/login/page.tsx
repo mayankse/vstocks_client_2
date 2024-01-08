@@ -11,7 +11,7 @@ const PageLogin = () => {
   {
     document.title="Login";
   })
-  const [isInputFocused, setIsInputFocused] = useState(false);
+  const [isInputFocused, setIsInputFocused] = useState<boolean>(false);
 
   const handleInputFocus = () => {
     setIsInputFocused(true);
