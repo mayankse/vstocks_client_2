@@ -33,12 +33,12 @@ const PageLogin = () => {
 
   return (
     <div>
-      <div className=" bg-[#2e67dd] ">
+      <div className=" bg-[#2E67DD] ">
         <NavbarPage />
       </div>
       <div className="   ">
         <div className="flex justify-center flex-col  lg:flex-row  ">
-          <div className=" bg-[#2c62d3] min-h-[500px] hidden xl:flex    items-center justify-center  w-full lg:w-[980px]">
+          <div className="bg-[#2E67DD] min-h-[500px] hidden xl:flex    items-center justify-center  w-full lg:w-[980px]">
             <div className="">
               <div className="w-full xl:ml-10">
                 <Image
