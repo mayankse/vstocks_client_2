@@ -68,7 +68,7 @@ const NavbarPage = () => {
   };
   return (
     <div className=" font-poppins ">
-      <nav className="w-full p-[35px] font-poppins h-auto  bg-black border-gray-200 dark:bg-transparent">
+      <nav className="w-full p-[35px] font-poppins h-auto border-gray-200 dark:bg-transparent">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto xl:p-5">
           <a href="/" className="flex p-3 items-center  ">
             <span className="self-center text-[40px] mb-2 font-semibold whitespace-nowrap dark:text-white">
