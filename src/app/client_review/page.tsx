@@ -20,7 +20,7 @@ const ClientReview_Views = () => {
             <div className="border-2 rounded-2xl border-blue-600 m-4 p-2  max-w-sm">
               <div className="p-3">
                 <div className="flex justify-center mt-5">
-                  <img src="./imgs/men1.png" alt="" className="w-32"  />
+                  <img src="./images/men1.png" alt="" className="w-32"  />
                 </div>
                 <div className="  text-[#001a5b] font-semibold mt-4 text-[20px]">
                   James Pattinson
@@ -28,27 +28,27 @@ const ClientReview_Views = () => {
                 <div className="text-danger  m-2">
                   <span className="">
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
                     <img
-                      src="/imgs/Star 5.svg"
+                      src="/images/Star 5.svg"
                       className="inline-block"
                       alt=""
                     />
@@ -66,7 +66,7 @@ const ClientReview_Views = () => {
             <div className="border-2 rounded-2xl border-blue-600 m-4 p-2  max-w-sm">
               <div className="p-3">
                 <div className="flex justify-center mt-5">
-                  <img src="./imgs/men2.png" alt="" className="w-32" />
+                  <img src="./images/men2.png" alt="" className="w-32" />
                 </div>
                 <div className="  text-[#001a5b] font-semibold mt-4 text-[20px]">
                   James Pattinson
@@ -74,27 +74,27 @@ const ClientReview_Views = () => {
                 <div className="text-danger  m-2">
                   <span className="">
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
@@ -112,7 +112,7 @@ const ClientReview_Views = () => {
             <div className="border-2 rounded-2xl border-blue-600 m-4 p-2  max-w-sm">
               <div className="p-3">
                 <div className="flex justify-center mt-5">
-                  <img src="./imgs/men3.png" alt="" className="w-32" />
+                  <img src="./images/men3.png" alt="" className="w-32" />
                 </div>
                 <div className="  text-[#001a5b] font-semibold mt-4 text-[20px]">
                   James Pattinson
@@ -120,27 +120,27 @@ const ClientReview_Views = () => {
                 <div className="text-danger  m-2">
                   <span className="">
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
                     <img
-                      src="/imgs/star.svg"
+                      src="/images/star.svg"
                       className="inline-block"
                       alt=""
                     />
