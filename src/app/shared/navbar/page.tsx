@@ -272,14 +272,12 @@ const NavbarPage = () => {
           </div>
           <a
             href="/animation"
-            className="text-white font-medium text-[23px]"
-          >
+            className="text-white font-medium text-[23px]">
             My Projects
           </a>
           <a
             href="/pricing"
-            className="text-white font-medium text-[23px] xl:mr-8"
-          >
+            className="text-white font-medium text-[23px] xl:mr-8">
             Premium
           </a>
         </div>
